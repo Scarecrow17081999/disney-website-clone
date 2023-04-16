@@ -74,7 +74,7 @@
       align-items: center;
       font-size: 35px;
       border-radius: 50%;
-        border: 2px solid rgb(243, 243, 243);
+      border: 2px solid rgb(243, 243, 243);
     }
     .group {
       display: flex;
@@ -90,5 +90,18 @@
         margin: auto;
       }
     }
+  }
+  #subTitle {
+    min-height: 20px;
+    margin-top: 26px;
+    font-size: 15px;
+    color: rgb(247, 247, 247);
+  }
+  #description {
+    max-width: 600px;
+    line-height: 1.4;
+    font-size: 20px;
+    margin-top: 16px;
+    color: rgb(247, 247, 247);
   }
 }
