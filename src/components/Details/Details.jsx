@@ -33,6 +33,17 @@ export default function Details() {
             <img src="/images/group-icon.png" alt="" />
           </div>
         </div>
+        <div id='subTitle'>
+          <p>2018 7m Family, Fantasy, Kids, Animation</p>
+        </div>
+        <div id='description'>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad a ea
+            laboriosam? Asperiores ut explicabo cumque corporis iure ratione
+            quos delectus placeat assumenda iusto. Placeat libero error fugiat
+            vero delectus.
+          </p>
+        </div>
       </div>
     </>
   );

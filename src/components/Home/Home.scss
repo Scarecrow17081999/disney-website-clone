@@ -1,14 +1,19 @@
 
 .home-container{
+    // width: 100vw;
     min-height: calc(100vh - 70px);
     padding: 0 calc(3.5vw + 5px);
     // border: 1px solid black;
     position: relative;
     overflow-x: hidden;
+    overflow-y: hidden;
     &::before{
+        overflow-x: hidden;
         background: url("../../../public/images/home-background.png") center center / cover no-repeat fixed;
         content: '';
         position: absolute;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         top: 0;
         left: 0;
         right: 0;
